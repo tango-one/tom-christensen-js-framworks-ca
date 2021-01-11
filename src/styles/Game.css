@@ -1,0 +1,77 @@
+.game {
+  min-height: calc(100vh - 60px);
+}
+.game-detail {
+  height: 100%;
+}
+.game-img {
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.game-content {
+  display: flex;
+  flex-flow: column;
+}
+.game-title {
+  font-size: 3rem;
+  font-weight: 400;
+}
+.game-rating {
+  font-size: 1.2rem;
+}
+.game-rating span {
+  color: gold;
+  padding-right: 15px;
+  margin-bottom: 5px;
+}
+.game-desc {
+  font-weight: 100;
+  margin-bottom: 50px;
+}
+.game-btn {
+  width: 40%;
+  padding: 15px 0;
+  background-color: var(--primaryColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.game-btn:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  text-decoration: none;
+  color: white;
+}
+.game-btn:focus {
+  outline: none;
+  border: none;
+}
+@media screen and (max-width: 576px) {
+  .game {
+    height: 100%;
+    /* overflow-y: scroll; */
+  }
+  .game-img {
+    height: 40%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .game {
+    height: auto;
+  }
+  .game-title {
+    font-size: 2.5rem;
+  }
+  .game-desc {
+    font-weight: 100;
+    margin-bottom: 20px;
+  }
+  .game-btn {
+    width: 100%;
+  }
+}

@@ -1,0 +1,17 @@
+.navbar {
+  background: var(--primaryColor);
+}
+.nav-link {
+  color: white;
+  font-size: 1.2rem;
+}
+.nav-link:hover {
+  color: white !important;
+}
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+}

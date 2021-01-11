@@ -1,0 +1,11 @@
+.search {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 7px 10px;
+}
+.search:hover {
+  border: none !important;
+  outline: none !important;
+}
